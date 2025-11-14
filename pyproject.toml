@@ -1,34 +1,28 @@
 [build-system]
-# ビルドに使用するバックエンドを指定（ここでは標準的な setuptools を使用）
 requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-# プロジェクトの基本的なメタデータ リネーム
 name = "ComfyUI‗AutoBatchRunner" 
-# バージョンはプロジェクトに合わせて適宜変更してください
 version = "0.0.2" 
 description = "This script adds an automatic batch runner UI to ComfyUI. The underscore in ComfyUI_AutoBatchRunner is a naming error. Please use ComfyUI-AutoBatchRunner."
 readme = "README.md"
 authors = [
-    {name = "Boba-svg"}, # GitHubの作者名を使用
+    {name = "Boba-svg"}, 
 ]
-license = {file = "LICENSE"} # LICENSEファイルがあれば
-requires-python = ">=3.10" # ComfyUIが要求するPythonバージョンに合わせて調整
+license = {file = "LICENSE"} 
+requires-python = ">=3.10" 
 
-# プロジェクトの依存関係 (ComfyUIカスタムノードとして通常は最小限で済みます)
 dependencies = [
-    "requests", # 必要に応じて、依存するライブラリを追加
-    # 例: "numpy>=1.20"
+    "requests", 
 ]
 
-# PyPIでの分類
 classifiers = [
     "Development Status :: 4 - Beta",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
-    "License :: OSI Approved :: MIT License", # 適切なライセンスを選択
+    "License :: OSI Approved :: MIT License", 
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
 
@@ -36,19 +30,8 @@ classifiers = [
 Homepage = "https://github.com/Boba-svg/ComfyUI‗AutoBatchRunner"
 Repository = "https://github.com/Boba-svg/ComfyUI‗AutoBatchRunner"
 
-# ----------------------------------------------------
-# [tool.comfy] セクション
-# ComfyUI Managerのための固有の設定です。
 [tool.comfy]
-
-# 必須: あなたのGitHubユーザー名またはユニークな識別子。
-# Managerはこれを使ってノードの場所を特定します。
 PublisherId = "boba-svg" 
 
-# 推奨: Managerのリストに表示される、ユーザーフレンドリーな名前。
-# 日本語でも構いませんが、英字名が推奨されます。
 DisplayName = "ComfyUI‗AutoBatchRunner" 
 
-# (オプション) ノードが特定のサブディレクトリにある場合に指定します。
-# 通常はルートにあるため、不要です。
-# Root = "."
