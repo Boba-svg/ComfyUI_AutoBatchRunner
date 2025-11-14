@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ComfyUI‗AutoBatchRunner" 
+name = "ComfyUI_AutoBatchRunner" 
 version = "0.0.2" 
 description = "This script adds an automatic batch runner UI to ComfyUI. The underscore in ComfyUI_AutoBatchRunner is a naming error. Please use ComfyUI-AutoBatchRunner."
 readme = "README.md"
@@ -27,11 +27,11 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Boba-svg/ComfyUI‗AutoBatchRunner"
-Repository = "https://github.com/Boba-svg/ComfyUI‗AutoBatchRunner"
+Homepage = "https://github.com/Boba-svg/ComfyUI_AutoBatchRunner"
+Repository = "https://github.com/Boba-svg/ComfyUI_AutoBatchRunner"
 
 [tool.comfy]
 PublisherId = "boba-svg" 
 
-DisplayName = "ComfyUI‗AutoBatchRunner" 
+DisplayName = "ComfyUI_AutoBatchRunner" 
 
