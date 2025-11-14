@@ -1,6 +1,6 @@
 his script adds an Auto Batch Runner UI to ComfyUI. Main features:
 
-** This ComfyUI_AutoBatchRunner is a custom node that has been left unused due to a naming error. Please use the official name ComfyUI-AutoBatchRunner. **  
+  ** This ComfyUI_AutoBatchRunner is a custom node that has been left unused due to a naming error. Please use the official name ComfyUI-AutoBatchRunner. **  
 https://github.com/Boba-svg/ComfyUI-AutoBatchRunner
 
 Automatically loads on startup.
